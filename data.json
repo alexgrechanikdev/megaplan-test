@@ -1,0 +1,30 @@
+{
+  "data": [
+    { "id": 1, "name": "Отдел 1", "parent": null },
+    { "id": 2, "name": "Отдел 2", "parent": null },
+    { "id": 3, "name": "Отдел 3", "parent": null },
+    { "id": 4, "name": "Отдел 4", "parent": null },
+    { "id": 5, "name": "Отдел 5", "parent": null },
+    { "id": 6, "name": "Отдел 1.1", "parent": 1 },
+    { "id": 7, "name": "Отдел 1.2", "parent": 1 },
+    { "id": 8, "name": "Отдел 3.1", "parent": 3 },
+    { "id": 9, "name": "Отдел 3.2", "parent": 3 },
+    { "id": 10, "name": "Отдел 3.3", "parent": 3 },
+    { "id": 11, "name": "Отдел 3.4", "parent": 3 },
+    { "id": 12, "name": "Отдел 3.5", "parent": 3 },
+    { "id": 13, "name": "Отдел 4.1", "parent": 4 },
+    { "id": 14, "name": "Отдел 5.1", "parent": 5 },
+    { "id": 15, "name": "Отдел 5.2", "parent": 5 },
+    { "id": 16, "name": "Отдел 3.3.1", "parent": 10 },
+    { "id": 17, "name": "Отдел 3.3.2", "parent": 10 },
+    { "id": 18, "name": "Отдел 3.3.3", "parent": 10 },
+    { "id": 19, "name": "Отдел 3.5.1", "parent": 12 },
+    { "id": 20, "name": "Отдел 3.5.2", "parent": 12 },
+    { "id": 21, "name": "Отдел 3.5.3", "parent": 12 },
+    { "id": 22, "name": "Отдел 3.3.2.1", "parent": 17 },
+    { "id": 23, "name": "Отдел 3.3.2.2", "parent": 17 },
+    { "id": 24, "name": "Отдел 3.3.2.3", "parent": 17 },
+    { "id": 25, "name": "Отдел 3.3.3.1", "parent": 18 },
+    { "id": 26, "name": "Отдел 3.3.2.1.1", "parent": 22 }
+  ]
+}
