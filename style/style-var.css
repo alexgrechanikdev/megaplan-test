@@ -5,4 +5,5 @@
   --scrollbar-background: #f9f9fd;
   --scrollbar-thumb-background: #18aaaa;
   --default-border-color: rgba(132, 153, 171, 0.3);
+  --scrollbar-params: 5px;
 }

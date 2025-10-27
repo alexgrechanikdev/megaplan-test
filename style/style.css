@@ -67,17 +67,18 @@
   height: 100%;
   border-radius: var(--padding-x1);
   overflow-y: auto;
-  background-color: #f9f9fd;
+  background-color: var(--scrollbar-background);
 }
 
 #top_level_wrapper::-webkit-scrollbar {
-  border-radius: 16px;
-  width: 5px;
+  border-radius: var(--padding-x2);
+  width: var(--scrollbar-params);
+  height: var(--scrollbar-params);
   background-color: var(--scrollbar-background);
 }
 
 #top_level_wrapper::-webkit-scrollbar-thumb {
-  border-radius: 16px;
+  border-radius: var(--padding-x2);
   background-color: var(--scrollbar-thumb-background);
 }
 
@@ -90,10 +91,11 @@
   height: 100%;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s;
+  transition: all 0.5s;
 }
 
 .open {
   max-height: 100vh;
-  transition: max-height 0.5s;
+  overflow: visible;
+  transition: all 0.5s;
 }
