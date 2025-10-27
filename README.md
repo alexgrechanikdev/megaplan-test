@@ -17,3 +17,4 @@
 
 ```bash
 git clone https://github.com/alexgrechanikdev/megaplan-test
+```

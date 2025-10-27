@@ -6,6 +6,7 @@ let ALL_CHILDRENS = null;
 
 const GLOBAL_PARENT = {
   parentElement: { id: 0, name: "Все отделы" },
+  open: true,
   childrens: null,
 };
 
